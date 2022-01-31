@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <!-- css file  -->
+    <link rel="stylesheet" href="spotify.css">
+    <!-- logos  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font  -->
+    <link rel="stylesheet" <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Bree+Serif&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li id="logo"><i class="fa fa-spotify"></i><span>Spotify</span></li>
+            <li class="searchbox">
+                <input type="search" placeholder="enter song here">
+                <i class="fa fa-search" style="height: 10px;"></i>
+            </li>
+        </ul>
+    </nav>
+    <div id="container" class="container">
+        <div class="songlist">
+            <h1>Song list</h1>
+            <div class="songItemContainer">
+                <div class="songItems">
+                    <img src=""
+                        alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timespan">5:30 <i id="0" class="far songItemplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src=""
+                        alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timespan">5:04 <i id="1" class="far songItemplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src=""
+                        alt="1">
+                <span class="songName"></span>
+                    <span class="songlistplay"><span class="timespan">2:55 <i id="2" class="far songItemplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src=""
+                        alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timespan">4:56 <i id="3" class="far songItemplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src=""
+                        alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timespan">1:19 <i id="4" class="far songItemplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src=""
+                        alt="1">
+                    <span class="songName"></span>
+                    <span class="songlistplay"><span class="timespan">4:37 <i id="5" class="far songItemplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+                <div class="songItems">
+                    <img src=""
+                        alt="1">
+                    <span class="songName"></span>
+                    <!-- <img src="https://www.radiotuttolevangelo.it/i/wp-content/uploads/2016/08/equalizer.gif"> -->
+                    <span class="songlistplay"><span class="timespan">4:01<i id="6" class="far songItemplay fa-play-circle"></i></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div class="bottomElement">
+            <div class="songInfo" id="gif">
+                <img id="masterimage" src="" alt="">
+                <span id="masterSongName">Namo Namo</span>
+                <img src="https://www.radiotuttolevangelo.it/i/wp-content/uploads/2016/08/equalizer.gif">
+            </div>
+            <div>
+                <span id="time">5:30
+                </span>
+            </div>
+        </div>
+        <input type="range" name="range" id="myprogressbar" value="0" min="0" max="1">
+        <div class="icons">
+            <i id='previous' class="fas fa-3x fa-step-backward"></i>
+            <i id='masterplay' class="far fa-3x fa-play-circle"></i>
+            <i id='next' class="fas fa-3x fa-step-forward"></i>
+        </div>
+    </div>
+    <footer>
+        &copy;rahuliar
+    </footer>
+    <script src="spotify.js"></script>
+    <script src="https://kit.fontawesome.com/dcd14226f8.js" crossorigin="anonymous"></script>
+</body>
+</html>
