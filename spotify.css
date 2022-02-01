@@ -200,14 +200,14 @@ footer{
   .songItems {
     font-size: 1rem;
   }
+  #masterSongName,
+  #time {
+    font-size: 18px;
+  }
 }
 @media (max-width: 450px) {
   .songItems {
     font-size: 0.8rem;
-  }
-  #masterSongName,
-  #time {
-    font-size: 18px;
   }
   .songInfo img {
     width: 50px;
