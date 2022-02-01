@@ -204,14 +204,15 @@ footer{
   #time {
     font-size: 18px;
   }
+  .songInfo img {
+    width: 50px;
+  }
 }
 @media (max-width: 450px) {
   .songItems {
     font-size: 0.8rem;
   }
-  .songInfo img {
-    width: 50px;
-  }
+  
 }
 @media (max-width: 425px) {
 .searchbox{
