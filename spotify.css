@@ -35,9 +35,25 @@ nav ul li {
   margin: 10px 5px 0px 10px;
   border-radius: 8px;
 }
-.searchbox i {
-  margin: 7px 0px 0px 0px;
+.searchbox button {
+  background: transparent;
+  color: white;
+  font-size: 30px;
+  margin: 2px;
+  padding: 4px;
+  height: 50%;
   cursor: pointer;
+  border-radius: 20px;
+  border: none;
+}
+.searchbox .fa-search {
+  margin: 17px 0px 0px 0px;
+}
+.searchbox .search-icon {
+  margin: 10px 0px 0px 0px;
+}
+#autoplay{
+  font-family: "Bree Serif", serif;
 }
 /* logo  */
 
@@ -195,6 +211,12 @@ footer{
   .songlist {
     width: 100%;
   }
+  button.fa-search {
+    display: none;
+  }
+  .fa-search {
+    display: none;
+  }
 }
 @media (max-width: 515px) {
   .songItems {
@@ -215,7 +237,7 @@ footer{
   
 }
 @media (max-width: 425px) {
-.searchbox{
-  display: none;
-}
+#autoplay{
+   font-size: 20px;
+  }
 }
